@@ -102,6 +102,7 @@ effective pattern:
 ;;;###autoload
 (add-hook 'c-mode-hook (lambda () (add-hook 'after-save-hook #'kernel--check-file-hook)))
 
+;;;###autoload
 (define-minor-mode kernel-mode
   "Toggle kernel minor mode for working with the linux kernel.
 
